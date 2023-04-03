@@ -1,0 +1,170 @@
+/* .container{
+    margin-top: 132px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+
+.card {
+
+    border: none !important; 
+    border-radius: none !important;
+}
+
+.card .gallery-img img{
+    height: 400px;
+    width: 270px;
+}
+
+
+
+div.row {
+    margin-left: 5px !important;
+    margin-top: 17px !important;
+}
+
+.card {
+    /* box-shadow: 0px 3px #000000 !important; */
+    margin: 30px;
+    box-shadow: 0px 3px 6px black;
+    overflow: hidden;
+   
+}
+
+
+
+/* .card-deck{
+    margin-top: 30px;
+} */
+/* .card-deck .card {
+
+    width: 270px;
+    height: 400px;
+    margin-top: 97px;
+    box-shadow: 0px 3px #000000;
+} */
+
+.card-body{
+    background-color: #FFFFFF;
+    padding: 16px 20px;
+}
+/* .card-body:hover{
+    background-color: #d62424;
+    padding: 16px 20px;
+    
+} */
+.card-body p{
+    color: #392F2F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+/* .card-body:hover .card-text{
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+} */
+
+/* .card-text{
+    font-family: Graphik;
+    font-size: 16;
+    font-weight: medium;
+
+    margin: 5px 20px;
+} */
+
+div.overlay{
+    background-image: url(../img/b1.jpg);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 569px;   
+    margin-top: 132px;
+   
+}
+div.description{
+    margin-top: 132px;
+}
+
+/* .banner-img img{
+    width: 570px;
+    height:569px;
+} */
+
+.description{
+    padding-left: 165px;
+    
+}
+.description h1{
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    line-height: 52px;
+    font-weight: bold;
+    padding-bottom: 56px;
+   
+}
+.description p{
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+p.txt1{
+    padding-bottom: 15px;
+}
+
+
+/* img overlay */
+ .gallery_overlay{
+    position: absolute;
+    height: 445px;
+    width: 300px;
+    left: 0;
+    top: 0;
+    background-color: rgba(229, 214, 214, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.gallery_overlay a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center; 
+     background-color: #a61212;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-img:hover .gallery_overlay {
+    transform: scale(1); 
+    transition: all linear .3s;
+}  
+.gallery-img:hover .card-body{
+    background-color: #d62424;
+    padding: 16px 20px;
+}
+.gallery-img:hover .card-text{
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
